@@ -14,9 +14,8 @@ $recipient = "nicomattos2014@gmail.com";
 
 $subject = "Nuevo e-mail desde Mi Portfolio!";
 
-$header = "From: $email \r\n";
-$header .= "Content-Type: text/plain; charset=UTF-8";
-mail($recipient, $subject, $formcontent, $header) or die("Error!");
-header("Location: index.html");
+$mailheader = "From: $email \r\n";
+mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+echo "Thank You!" . " -" . "<a href='form.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
 
 ?>
