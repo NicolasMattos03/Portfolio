@@ -185,7 +185,6 @@ body {
   height: 100%;
   min-width: 320px;
 }
-
 body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {
@@ -198,7 +197,6 @@ body.is-preload *:after {
   -ms-transition: none !important;
   transition: none !important;
 }
-
 /* Spinner */
 
 @-moz-keyframes spinner-rotate {
@@ -579,7 +577,6 @@ body.is-preload:before {
     spinner-rotate 0.75s infinite linear !important;
   z-index: 100001;
 }
-
 body.is-preload:after {
   -moz-animation: none !important;
   -webkit-animation: none !important;
@@ -2037,7 +2034,7 @@ body.is-touch .poptrox-popup .closer {
     font-size: 1em;
   }
 
-  #header nav {
+  #header .navLista {
     display: none;
   }
 }
@@ -2269,6 +2266,9 @@ body.is-touch .main {
     width: 6%;
     margin-top: 1%;
   }
+  #flags {
+  }
+
   .main > .content br {
     display: none;
   }
