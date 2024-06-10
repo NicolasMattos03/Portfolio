@@ -1,0 +1,29 @@
+{
+  "navbar": {
+    "inicio": "Inicio",
+    "sobremi": "Sobre Mí",
+    "proyects": "Mis Proyectos",
+    "contact": "Contacto"
+  },
+  "intro": {
+    "titulo": "Hola, soy Nico Mattos",
+    "texto": "Y Soy.."
+  },
+  "about": {
+    "inicio": "Sobre mi",
+    "presentacion": "Mi nombre es Nicolás Mattos y soy un diseñador web de  Córdoba, Argentina. Aunque he entrado ligeramente en el back-end,estoy fascinado por el desarrollo front-end y también por el mundo de desarrollo de aplicaciones móviles. Mira mi trabajo, seguro no te arrepentirás. Si tiene alguna pregunta sobre el servicio de diseño o simplemente me quieres decir hola, no dudes en contactarme."
+  },
+  "works": {
+    "inicioWork": "Mis Proyectos",
+    "texto": "Mi experiencia pasada en el desarrollo front-end."
+  },
+  "contacto": {
+    "titulo": "Di Hola",
+    "texto": "Gracias por tomarse el tiempo para comunicarse. ¿Cómo puedo ayudarte hoy?"
+  },
+  "parpadeo": {
+    "texto1": "<b>DESARROLLADOR WEB</b>",
+    "texto2": "<b>DESARROLLADOR APPS'MOVILES</b>",
+    "texto3": "<b>DESARROLLADOR FRONTEND</b>"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "navbar": {
+    "inicio": "Home",
+    "sobremi": "About Me",
+    "proyects": "My Proyects",
+    "contact": "Contact"
+  },
+  "intro": {
+    "titulo": "Hi, I'm Nico Mattos",
+    "texto": "And I'm.."
+  },
+  "about": {
+    "inicio": "About me",
+    "presentacion": "My name is Nicolás Mattos and I am a web designer from Córdoba, Argentina. Although I have entered slightly into the back-end, I am fascinated by frontal development and also through the world of mobile applications. Look at my work, You will not regret it. If you have any questions about the design service or simply tell me Hello, do not hesitate to contact me."
+  },
+  "works": {
+    "inicioWork": "My Proyects",
+    "texto": "My past experience in front-end development."
+  },
+  "contacto": {
+    "titulo": "Say Hello",
+    "texto": "Thanks for taking the time to reach out. How can I help you today?"
+  },
+  "parpadeo": {
+    "texto1": "<b>WEB DEVELOPER</b>",
+    "texto2": "<b>MOBILE APPS'DEVELOPER</b>",
+    "texto3": "<b>FRONTEND DEVELOPER</b>"
+  }
+}
