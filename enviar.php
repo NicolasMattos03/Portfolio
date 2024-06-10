@@ -1,22 +1,22 @@
 <?php
+
 $name = $_POST['name'];
-$mail = $_POST['mail'];
+$email = $_POST['email'];
 $message = $_POST['message'];
 
-$header = 'From: ' . $mail . " \r\n";
-$header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
-$header .= "Mime-Version: 1.0 \r\n";
-$header .= "Content-Type: text/plain";
+$formcontent="
+    Nombre: $name \n
+    E-mail: $email \n
+    Mensaje: $message
+";
 
-$message = "Este mensaje fue enviado por: " . $name . " \r\n";
-$message .= "Su e-mail es: " . $mail . " \r\n";
-$message .= "Mensaje: " . $_POST['message'] . " \r\n";
-$message .= "Enviado el: " . date('d/m/Y', time());
+$recipient = "nicomattos2014@gmail.com";
 
-$para = 'nicomattos2014@gmail.com';
-$asunto = 'Mensaje nuevo de Mi Portfolio..';
+$subject = "Nuevo e-mail desde Mi Portfolio!";
 
-mail($para, $asunto, utf8_decode($message), $header);
+$header = "From: $email \r\n";
+$header .= "Content-Type: text/plain; charset=UTF-8";
+mail($recipient, $subject, $formcontent, $header) or die("Error!");
+header("Location: index.html");
 
-header("Location:index.html");
 ?>
