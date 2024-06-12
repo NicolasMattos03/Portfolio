@@ -39,6 +39,11 @@
             >
           </li>
           <li class="navLista">
+            <a data-section="navbar" data-value="habilidades" href="#skills"
+              >Skills</a
+            >
+          </li>
+          <li class="navLista">
             <a data-section="navbar" data-value="proyects" href="#work"
               >My Proyects</a
             >
@@ -196,7 +201,114 @@
           hesitate to contact me.
         </p>
       </div>
-      <a href="#work" class="button style2 down anchored">Next</a>
+      <a href="#skills" class="button style2 down anchored">Next</a>
+    </section>
+
+    <!--SKILLS-->
+    <section class="skills" id="skills">
+      <div class="contenido-seccion">
+        <h2 id="tituloSkills" data-section="skills" data-value="Skills">
+          Skills
+        </h2>
+        <div class="fila">
+          <!-- Technical Skill -->
+          <div class="col">
+            <h3 id="subSkills" data-section="skills" data-value="titulo1">
+              Technical Skills
+            </h3>
+            <div class="skill">
+              <span>HTML</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>CSS</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>JavaScript</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>60%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Bootstrap</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Angular</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Professional Skills -->
+          <div class="col">
+            <h3 id="subSkills" data-section="skills" data-value="titulo2">
+              Professional Skills
+            </h3>
+            <div class="skill">
+              <span data-section="skills" data-value="texto1"
+                >Communication</span
+              >
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span data-section="skills" data-value="texto2">Teamwork</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>99%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span data-section="skills" data-value="texto3">Creativity</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span data-section="skills" data-value="texto4">Dedication</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span data-section="skills" data-value="texto5"
+                >Proyect Management</span
+              >
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Work -->
@@ -260,13 +372,24 @@
           <form action="https://formspree.io/f/xrgnneow" method="POST">
             <div class="fields">
               <div class="field half">
-                <input type="text" name="name" placeholder="Name/Nombre" />
+                <input
+                  id="email"
+                  type="text"
+                  name="name"
+                  placeholder="Name/Nombre"
+                />
               </div>
               <div class="field half">
-                <input type="email" name="email" placeholder="Email" />
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                />
               </div>
               <div class="field">
                 <textarea
+                  id="email"
                   name="message"
                   placeholder="Message/Mensaje"
                   rows="6"
@@ -334,5 +457,6 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/language.js"></script>
+    <script src="assets/js/skills.js"></script>
   </body>
 </html>

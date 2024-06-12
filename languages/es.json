@@ -2,6 +2,7 @@
   "navbar": {
     "inicio": "Inicio",
     "sobremi": "Sobre Mí",
+    "habilidades": "Habilidades",
     "proyects": "Mis Proyectos",
     "contact": "Contacto"
   },
@@ -13,6 +14,17 @@
     "inicio": "Sobre mi",
     "presentacion": "Mi nombre es Nicolás Mattos y soy un diseñador web de  Córdoba, Argentina. Aunque he entrado ligeramente en el back-end,estoy fascinado por el desarrollo front-end y también por el mundo de desarrollo de aplicaciones móviles. Mira mi trabajo, seguro no te arrepentirás. Si tiene alguna pregunta sobre el servicio de diseño o simplemente me quieres decir hola, no dudes en contactarme."
   },
+  "skills": {
+    "Skills": "Habilidades",
+    "titulo1": "Habilidades Técnicas",
+    "titulo2": "Competencias Profesionales",
+    "texto1": "Comunicación",
+    "texto2": "Trabajo en Equipo",
+    "texto3": "Creatividad",
+    "texto4": "Dedicación",
+    "texto5": "Gestión de Proyectos"
+  },
+
   "works": {
     "inicioWork": "Mis Proyectos",
     "texto": "Mi experiencia pasada en el desarrollo front-end."

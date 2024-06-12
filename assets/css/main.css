@@ -738,8 +738,8 @@ table {
 /* Box */
 
 .box {
-  background: #ffffff;
-  color: #39454b;
+  background: #aaa7a7;
+  color: #0a0a0a;
   padding: 2em;
 }
 
@@ -762,6 +762,10 @@ table {
   }
 }
 
+#email::placeholder {
+  color: rgb(0, 0, 0);
+}
+
 /* Button */
 
 input[type="button"],
@@ -777,7 +781,7 @@ button {
   -webkit-transition: background-color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
-  background-color: #98c593;
+  background-color: #36a929b5;
   border: 0;
   border-radius: 3.5em;
   color: #ffffff;
@@ -834,7 +838,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 .button:hover,
 button:hover {
-  background-color: #a8cea4;
+  background-color: #57cd4a;
 }
 
 input[type="button"]:active,
@@ -842,7 +846,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 .button:active,
 button:active {
-  background-color: #88bc82;
+  background-color: #44cf34;
 }
 
 input[type="button"].style2,
@@ -883,6 +887,7 @@ button.style2.down {
 
 form {
   margin: 0 0 2em 0;
+  background-color: #aaa7a7;
 }
 
 form > :last-child {
@@ -990,7 +995,7 @@ input[type="search"]:focus,
 input[type="url"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #9ac8e9;
+  border-color: #252a2e;
 }
 
 input[type="text"],
@@ -2440,9 +2445,9 @@ body.is-touch .main {
 
 #contact {
   overflow: hidden;
-  padding-bottom: 0;
+  padding-bottom: 2em;
   color: #000000;
-  background-color: #57565b;
+  background-color: #252a2e;
 }
 
 #contact .box {
@@ -2551,4 +2556,202 @@ body.is-touch .main {
 }
 .inicio {
   font-size: 120%;
+}
+
+/* SECCION S K I L L S */
+.skills {
+  background-color: #252a2e;
+  color: #fff;
+  padding: 50px 20px;
+}
+.skills .contenido-seccion {
+  max-width: 1100px;
+  margin: auto;
+}
+.skills h2 {
+  font-size: 48px;
+  font-family: "Righteous";
+  text-align: center;
+  padding: 20px 0;
+}
+.skills .fila {
+  display: flex;
+}
+.skills .fila .col {
+  width: 50%;
+  padding: 0 20px;
+}
+.skills .fila .col h3 {
+  font-size: 28px;
+  font-family: "Righteous";
+  margin-bottom: 25px;
+}
+.skills .skill > span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+.skills .skill .barra-skill {
+  height: 8px;
+  width: 80%;
+  background-color: #131517;
+  position: relative;
+  margin-bottom: 30px;
+}
+.skills .skill .progreso {
+  background-color: #aaa7a7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 8px;
+}
+.skills .skill .barra-skill span {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #aaa7a7;
+  color: #000000;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  top: -17px;
+  right: -15px;
+  font-size: 14px;
+}
+/* Estas clases se agregaran dinamicamente mediante javascript */
+.skills .skill .javascript {
+  width: 0%;
+  animation: 2s javascript forwards;
+}
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+.skills .skill .htmlcss {
+  width: 0%;
+  animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+.skills .skill .photoshop {
+  width: 0%;
+  animation: 2s photoshop forwards;
+}
+@keyframes photoshop {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+.skills .skill .wordpress {
+  width: 0%;
+  animation: 2s wordpress forwards;
+}
+@keyframes wordpress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+.skills .skill .drupal {
+  width: 0%;
+  animation: 2s drupal forwards;
+}
+@keyframes drupal {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+.skills .skill .comunicacion {
+  width: 0%;
+  animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+.skills .skill .trabajo {
+  width: 0%;
+  animation: 2s trabajo forwards;
+}
+@keyframes trabajo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 99%;
+  }
+}
+
+.skills .skill .creatividad {
+  width: 0%;
+  animation: 2s creatividad forwards;
+}
+@keyframes creatividad {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+.skills .skill .dedicacion {
+  width: 0%;
+  animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+.skills .skill .proyect {
+  width: 0%;
+  animation: 2s proyect forwards;
+}
+@keyframes proyect {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+#tituloSkills {
+  font-family: "Source Sans Pro", "sans-serif";
+}
+#subSkills {
+  font-family: "Source Sans Pro", "sans-serif";
+  text-align: center;
 }
