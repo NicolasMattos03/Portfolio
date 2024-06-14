@@ -532,7 +532,7 @@ body:before {
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
-  color: #e5e6e7;
+  color: #1e2326;
   content: "\f1ce";
   cursor: default;
   display: block;
@@ -738,8 +738,8 @@ table {
 /* Box */
 
 .box {
-  background: #aaa7a7;
-  color: #0a0a0a;
+  background: #252a2e;
+  color: #ffffff;
   padding: 2em;
 }
 
@@ -763,7 +763,7 @@ table {
 }
 
 #email::placeholder {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 /* Button */
@@ -887,7 +887,9 @@ button.style2.down {
 
 form {
   margin: 0 0 2em 0;
-  background-color: #aaa7a7;
+  background-color: #1e2326;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 form > :last-child {
@@ -1068,9 +1070,18 @@ textarea {
 
 .icon.brands:before {
   font-family: "Font Awesome 5 Brands";
-  font-size: 30px;
+  font-size: 25px;
+  margin-right: 80px;
+  margin-top: 10px;
+  align-items: center;
+}
+.icon.solid:before {
+  font-size: 25px;
 }
 
+li::marker {
+  font-size: 0;
+}
 /* Image */
 
 .image {
@@ -1401,7 +1412,7 @@ table.default tfoot {
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
-  color: #e5e6e7;
+  color: #1e2326;
   content: "\f1ce";
   cursor: default;
   display: block;
@@ -1968,7 +1979,7 @@ body.is-touch .poptrox-popup .closer {
   left: 0;
   top: 0;
   width: 100%;
-  background: rgb(255, 255, 255);
+  background: #1e2326;
   height: 4em;
   line-height: 3em;
   box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -2009,15 +2020,17 @@ body.is-touch .poptrox-popup .closer {
 
 #header nav ul li a {
   display: block;
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   height: 3em;
   line-height: 3em;
   padding: 0.6em 0.5em 0 0.5em;
   outline: 0;
+  font-family: "Work Sans";
+  font-weight: 500;
 }
 #header nav ul li a:hover {
-  color: #8f8f8f;
+  color: #707070;
 }
 
 @media screen and (max-width: 736px) {
@@ -2041,6 +2054,10 @@ body.is-touch .poptrox-popup .closer {
 
   #header .navLista {
     display: none;
+  }
+
+  .navLista {
+    font-family: "Work Sans";
   }
 }
 
@@ -2415,10 +2432,10 @@ body.is-touch .main {
   background-repeat: repeat, no-repeat;
 }
 
-/* One */
+/* fskill*/
 
 #one {
-  background: url("images/overlay.png"), url("../../images/one.jpg");
+  background: url(""), url("../../images/one.png");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -2446,7 +2463,7 @@ body.is-touch .main {
 #contact {
   overflow: hidden;
   padding-bottom: 2em;
-  color: #000000;
+  color: #fffafa;
   background-color: #252a2e;
 }
 
@@ -2754,4 +2771,64 @@ body.is-touch .main {
 #subSkills {
   font-family: "Source Sans Pro", "sans-serif";
   text-align: center;
+}
+
+/* SECCION PORTFOLIO */
+.portfolio {
+  background-color: #1e2326;
+  color: #fff;
+  padding: 50px 20px;
+}
+.portfolio .contenido-seccion {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+.portfolio h2 {
+  font-size: 48px;
+  font-family: "Source Sans Pro", "sans-serif";
+  text-align: center;
+  padding: 20px 0;
+}
+.portfolio .galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.portfolio .galeria .proyecto {
+  position: relative;
+  max-width: 340px;
+  height: fit-content;
+  margin: 10px;
+  cursor: pointer;
+}
+.portfolio .galeria .proyecto img {
+  width: 100%;
+  display: block;
+}
+.portfolio .galeria .proyecto .overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: linear-gradient(rgba(46, 46, 46, 0.8), rgba(61, 61, 61, 0));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 1s;
+  font-size: 18px;
+  letter-spacing: 3px;
+  opacity: 0;
+}
+.portfolio .galeria .proyecto .overlay h3 {
+  margin-bottom: 15px;
+  transition: 1s;
+  font-size: 40px;
+}
+.portfolio .galeria .proyecto .overlay:hover {
+  opacity: 1;
+}
+.portfolio .galeria .proyecto .overlay:hover h3 {
+  margin-bottom: 0px;
 }

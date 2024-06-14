@@ -1,10 +1,10 @@
 {
   "navbar": {
-    "inicio": "Home",
-    "sobremi": "About Me",
-    "habilidades": "Skills",
-    "proyects": "My Proyects",
-    "contact": "Contact"
+    "inicio": "HOME",
+    "sobremi": "ABOUT ME",
+    "habilidades": "SKILLS",
+    "proyects": "MY PROYECTS",
+    "contact": "CONTACT"
   },
   "intro": {
     "titulo": "Hi, I'm Nico Mattos",

@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <!--
 	Big Picture by HTML5 UP
 	html5up.net | @ajlkn
@@ -31,26 +36,26 @@
       <nav>
         <ul>
           <li class="navLista">
-            <a data-section="navbar" data-value="inicio" href="#intro">Home</a>
+            <a data-section="navbar" data-value="inicio" href="#intro">HOME</a>
           </li>
           <li class="navLista">
             <a data-section="navbar" data-value="sobremi" href="#one"
-              >About Me</a
+              >ABOUT ME</a
             >
           </li>
           <li class="navLista">
             <a data-section="navbar" data-value="habilidades" href="#skills"
-              >Skills</a
+              >SKILLS</a
             >
           </li>
           <li class="navLista">
             <a data-section="navbar" data-value="proyects" href="#work"
-              >My Proyects</a
+              >MY PROYECTS</a
             >
           </li>
           <li class="navLista">
             <a data-section="navbar" data-value="contact" href="#contact"
-              >Contact</a
+              >CONTACT</a
             >
           </li>
           <li>
@@ -102,6 +107,7 @@
               ><b>FRONTEND DEVELOPER</b></span
             >
             <span></span>
+            
           </span>
         </p>
 
@@ -311,53 +317,87 @@
       </div>
     </section>
 
-    <!-- Work -->
-    <section id="work" class="main style3 primary">
-      <div class="content2">
-        <header>
-          <h2 data-section="works" data-value="inicioWork">My Projects</h2>
+        <!-- Work -->
+
+    <section id="portfolio" class="portfolio">
+      <div class="contenido-seccion">
+        <h2 data-section="works" data-value="inicioWork">My Projects</h2>
           <p data-section="works" data-value="texto">
             My past experience in front-end development
           </p>
-        </header>
+        <div class="galeria">
+          <div class="proyecto">
+            <img src="images/thumbs/01.png" alt="" />
+            <div class="overlay">
+              <h3>STATE</h3>
+              <p>Negocios Inmobiliarios</p>
+            </div><li>
+              <span style="
+    margin-left: 30px">Codigo:</span>
+<a 
+            href="https://github.com/NicolasMattos03/Proyecto-State"
+            class="icon brands fa-github"
+            ></a
+          >
+          <span>Web:</span>
+          <a
+            href=""
+            class="icon solid fa-globe"
+            ></a>
+            </li>
+          </div>
+          <div class="proyecto">
+            <img src="images/thumbs/02.png" alt="" />
+            <div class="overlay">
+              <h3>ASPRA Web</h3>
+              <p>Protección Animal</p>
+            </div>
 
-        <!-- Gallery  -->
-        <div class="gallery">
-          <article class="from-left">
-            <a
-              href="https://github.com/NicolasMattos03/Proyecto-State"
-              target="_blank"
-              class="image fit"
-              ><img src="images/thumbs/01.png" title="The Anonymous Red" alt=""
-            /></a>
-          </article>
+            <li>
+              <span style="
+    margin-left: 30px">Codigo:</span>
+<a 
+            href="https://github.com/AS-PR-A/ASPRA-Web"
+            class="icon brands fa-github"
+            ></a
+          >
+          <span>Web:</span>
+          <a
+            href=""
+            class="icon solid fa-globe"
+            ></a>
+            </li>
+          </div>
+          <div class="proyecto">
+            <img src="images/thumbs/03.png" alt="" />
+            <div class="overlay">
+              <h3>ASPRA Móvil</h3>
+              <p>Protección Animal</p>
+            </div>
 
-          <article class="from-right">
-            <a
-              href="https://github.com/AS-PR-A/ASPRA-Web"
-              target="_blank"
-              class="image"
-              ><img src="images/thumbs/02.png" title="" alt=""
-            /></a>
-          </article>
-
-          <article class="from-right">
-            <a
-              href="https://github.com/AS-PR-A/ASPRA-Movil"
-              target="_blank"
-              class="image"
-              ><img src="images/thumbs/03.png" title="" alt=""
-            /></a>
-          </article>
-
-          <article class="from-right">
-            <a class="image fit"
-              ><img src="images/thumbs/04.jpg" title="Carry on" alt=""
-            /></a>
-          </article>
+            <li>
+              <span style="
+    margin-left: 30px">Codigo:</span>
+<a 
+            href="https://github.com/AS-PR-A/ASPRA-Movil"
+            class="icon brands fa-github"
+            ></a
+          >
+          <span>.APK:</span>
+          <a
+            href="https://drive.google.com/file/d/1xyyz7nvdyaK_Z61wJqR-FA1BcMooHR_Q/view?usp=sharing"
+            class="icon solid fa-globe"
+            ></a>
+            </li>
+          </div>
         </div>
       </div>
+        </div>
     </section>
+
+
+
+
 
     <!-- Contact -->
     <section id="contact" class="main style3 secondary">
@@ -376,6 +416,7 @@
                   id="email"
                   type="text"
                   name="name"
+                  
                   placeholder="Name/Nombre"
                 />
               </div>
