@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
-/*
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html,
 body,
 div,
@@ -159,7 +153,6 @@ textarea {
   -ms-appearance: none;
   appearance: none;
 }
-
 /* Basic */
 
 @-ms-viewport {
@@ -554,7 +547,7 @@ body:after {
   -webkit-animation: overlay-hide 1.5s ease-in forwards !important;
   -ms-animation: overlay-hide 1.5s ease-in forwards !important;
   animation: overlay-hide 1.5s ease-in forwards !important;
-  background: #ffffff;
+  background: #464646;
   content: "";
   display: block;
   height: 100%;
@@ -591,7 +584,6 @@ body.is-preload:after {
     line-height: 2.025em;
   }
 }
-
 /* Type */
 
 body,
@@ -684,7 +676,6 @@ h2 {
     font-size: 1.5em;
   }
 }
-
 strong,
 b {
   font-weight: 900;
@@ -758,7 +749,6 @@ table {
 
   .box.style2 {
     padding: 1.5em 1.25em 1.5em 1.25em;
-    background-color: rgba(255, 255, 255, 0.9);
   }
 }
 
@@ -1066,6 +1056,7 @@ textarea {
 
 .icon.solid:before {
   font-weight: 900;
+  font-size: 25px;
 }
 
 .icon.brands:before {
@@ -1074,9 +1065,6 @@ textarea {
   margin-right: 80px;
   margin-top: 10px;
   align-items: center;
-}
-.icon.solid:before {
-  font-size: 25px;
 }
 
 li::marker {
@@ -2288,8 +2276,6 @@ body.is-touch .main {
     width: 6%;
     margin-top: 1%;
   }
-  #flags {
-  }
 
   .main > .content br {
     display: none;
@@ -2321,7 +2307,6 @@ body.is-touch .main {
   }
 
   .main.style2 .content {
-    width: 100%;
     max-width: 100%;
     text-align: center;
     -moz-transform: none;
@@ -2343,6 +2328,20 @@ body.is-touch .main {
 }
 
 /* Footer */
+
+.arriba {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #767676;
+  color: #fd0000;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  line-height: 50px;
+  font-size: 18px;
+}
 
 #footer {
   display: -moz-flex;
@@ -2370,14 +2369,12 @@ body.is-touch .main {
   margin-bottom: 0;
 }
 
-#footer a {
-  color: inherit;
-}
-
 #footer a:hover {
   color: #b9babb;
 }
-
+#footer a {
+  color: inherit;
+}
 #footer ul.menu {
   margin: 0;
 }
@@ -2438,7 +2435,7 @@ body.is-touch .main {
   background: url(""), url("../../images/one.png");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
-  background-position: top left, center center;
+  background-position: top right, center center;
 }
 
 /* Two */
