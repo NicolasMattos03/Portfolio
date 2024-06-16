@@ -11,11 +11,11 @@
     "texto": "Y Soy.."
   },
   "about": {
-    "inicio": "Sobre mi",
+    "inicio": "SOBRE MÍ",
     "presentacion": "Mi nombre es Nicolás Mattos y soy un diseñador web de  Córdoba, Argentina. Aunque he entrado ligeramente en el back-end,estoy fascinado por el desarrollo front-end y también por el mundo de desarrollo de aplicaciones móviles. Mira mi trabajo, seguro no te arrepentirás. Si tiene alguna pregunta sobre el servicio de diseño o simplemente me quieres decir hola, no dudes en contactarme."
   },
   "skills": {
-    "Skills": "Habilidades",
+    "Skills": "HABILIDADES",
     "titulo1": "Habilidades Técnicas",
     "titulo2": "Competencias Profesionales",
     "texto1": "Comunicación",
@@ -26,11 +26,12 @@
   },
 
   "works": {
-    "inicioWork": "Mis Proyectos",
-    "texto": "Mi experiencia pasada en el desarrollo front-end."
+    "inicioWork": "MIS PROYECTOS",
+    "texto": "Mi experiencia pasada en el desarrollo front-end.",
+    "texto1": "Código:"
   },
   "contacto": {
-    "titulo": "Di Hola",
+    "titulo": "ENVÍAME UN CORREO ELECTRÓNICO",
     "texto": "Gracias por tomarse el tiempo para comunicarse. ¿Cómo puedo ayudarte hoy?"
   },
   "parpadeo": {

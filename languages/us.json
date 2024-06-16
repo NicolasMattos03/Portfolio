@@ -11,11 +11,11 @@
     "texto": "And I'm.."
   },
   "about": {
-    "inicio": "About me",
+    "inicio": "ABOUT ME",
     "presentacion": "My name is Nicolás Mattos and I am a web designer from Córdoba, Argentina. Although I have entered slightly into the back-end, I am fascinated by frontal development and also through the world of mobile applications. Look at my work, You will not regret it. If you have any questions about the design service or simply tell me Hello, do not hesitate to contact me."
   },
   "skills": {
-    "Skills": "Skills",
+    "Skills": "SKILLS",
     "titulo1": "Technical Skills",
     "titulo2": "Professional Skills",
     "texto1": "Communication",
@@ -25,11 +25,12 @@
     "texto5": "Proyect Management"
   },
   "works": {
-    "inicioWork": "My Proyects",
-    "texto": "My past experience in front-end development."
+    "inicioWork": "MY PROJECTS",
+    "texto": "My past experience in front-end development.",
+    "texto1": "Code:"
   },
   "contacto": {
-    "titulo": "Say Hello",
+    "titulo": "SEND ME AN EMAIL",
     "texto": "Thanks for taking the time to reach out. How can I help you today?"
   },
   "parpadeo": {

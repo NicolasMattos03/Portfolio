@@ -2829,3 +2829,18 @@ body.is-touch .main {
 .portfolio .galeria .proyecto .overlay:hover h3 {
   margin-bottom: 0px;
 }
+
+footer .Up {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #1e2326;
+  color: #0b0000;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  line-height: 50px;
+  font-size: 18px;
+  cursor: pointer;
+}
