@@ -16,12 +16,18 @@ body {
 }
 
 .descarga p {
-  color: aliceblue;
-  font-size: larger;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #33b2cf;
+  font-size: 200%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 60px;
   margin-bottom: 0;
-  cursor: default;
+  text-align: center;
+}
+.descarga h3 {
+  color: #33b2cf;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 .col {
@@ -30,4 +36,57 @@ body {
 }
 .row {
   flex-wrap: nowrap;
+}
+
+.main.style3 .content > header {
+  margin-bottom: 2em;
+}
+
+.main.style3.primary {
+  background: #ffffff;
+}
+
+.main.style3.secondary {
+  background: #f5f6f7;
+}
+/* --- BOX --- */
+
+.box {
+  background: #252a2e;
+  color: #ffffff;
+  padding: 2em;
+}
+
+.box > :last-child {
+  margin-bottom: 0;
+}
+
+.box.style2 {
+  padding: 3.5em 2.5em 3.5em 2.5em;
+}
+
+@media screen and (max-width: 736px) {
+  .box {
+    padding: 1em;
+  }
+
+  .box.style2 {
+    padding: 1.5em 1.25em 1.5em 1.25em;
+  }
+}
+.myProjects .galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.myProjects .galeria .proyecto {
+  position: relative;
+  width: 630px;
+  height: fit-content;
+  margin: 10px;
+}
+.myProjects .galeria .proyecto img {
+  width: 100%;
+  display: block;
+  justify-content: space-between;
 }
