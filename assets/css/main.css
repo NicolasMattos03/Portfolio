@@ -2150,3 +2150,11 @@ footer .Up {
   font-size: 18px;
   cursor: pointer;
 }
+
+#dev {
+  color: #797f83;
+}
+
+#dev :hover {
+  background-image: url(/images/dev2.ico);
+}
