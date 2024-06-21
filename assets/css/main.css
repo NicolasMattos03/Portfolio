@@ -733,7 +733,7 @@ button.down {
   height: 5em;
   line-height: 4.5em;
   padding: 0;
-  background-image: url("images/dark-arrow.svg");
+  background-image: url("/images/dark-arrow.ico");
   background-position: center center;
   background-repeat: no-repeat;
   text-indent: -10em;
@@ -808,7 +808,7 @@ input[type="submit"].style2.down,
 input[type="reset"].style2.down,
 .button.style2.down,
 button.style2.down {
-  background-image: url("images/arrow.svg");
+  background-image: url("/images/dark-arrow.ico");
 }
 
 /* ---  FORM --- */
@@ -1558,7 +1558,7 @@ body {
 }
 
 .main.dark .button.style2.down {
-  background-image: url("images/dark-arrow.svg");
+  background-image: url("/images/dark-arrow.ico");
 }
 
 body.is-touch .main {

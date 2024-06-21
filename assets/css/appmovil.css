@@ -11,7 +11,7 @@ body {
 
 .descarga {
   text-align: center;
-  cursor: pointer;
+  cursor: default;
   margin-top: 20px;
 }
 
