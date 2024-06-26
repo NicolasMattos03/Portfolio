@@ -569,7 +569,12 @@ select {
     font-size: 13pt;
   }
 }
-
+@media screen and (min-width: 736px) {
+  .logoHeader {
+    width: 400%;
+    margin: -15px 0 0 0px;
+  }
+}
 @media screen and (max-width: 736px) {
   body,
   input,
@@ -1807,8 +1812,8 @@ body.is-touch .main {
 /* --- LOGOS PORTFOLIO --- */
 
 .logoHeader {
-  width: 80px;
-  margin: 15px 0 0 20px;
+  width: 150px;
+  margin: -15px 0 0 0px;
 }
 .logoFooter {
   width: 40px;
