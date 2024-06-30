@@ -18,6 +18,7 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/texto.css" />
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -31,7 +32,6 @@
         id="imag"
         class="logoHeader"
         src="images/logo1.png"
-        width="30%"
         alt="..."
       />
 
@@ -68,12 +68,13 @@
               <div class="flags__item" data-language="us">
                 <img src="/images/us.svg" alt="" title="In English" />
               </div>
-            </div>
-
-            <div id="toggle-colors" class="colors"></div>
+            </div>           
           </li>
+          <a id="darkmode" href="javascript:void(0)"></a>
         </ul>
       </nav>
+
+      
     </header>
 
     <!--- INTRO --->
@@ -81,7 +82,7 @@
     <section id="intro" class="main style1 dark fullscreen">
       <div class="content">
         <header>
-          <h2 data-section="intro" data-value="titulo">Hi, I'm Nico Mattos</h2>
+          <h2 id="tituloIntro" data-section="intro" data-value="titulo">Hi, I'm Nico Mattos</h2>
           <p class="inicio" data-section="intro" data-value="texto">
             And I'm..
           </p>
@@ -410,14 +411,14 @@
 
     <section id="contact" class="main style3 secondary">
       <div class="content">
-        <header>
+        <header  id="letrasContact">
           <h2 data-section="contacto" data-value="titulo">SEND ME AN EMAIL</h2>
           <p data-section="contacto" data-value="texto">
             Thanks for taking the time to reach out. How can I help you today?
           </p>
         </header>
         <div class="box">
-          <form action="https://formspree.io/f/xrgnneow" method="POST">
+          <form id="formColor" action="https://formspree.io/f/xrgnneow" method="POST">
             <div class="fields">
               <div class="field half">
                 <input
@@ -524,5 +525,6 @@ title="GitHub"
     <script src="assets/js/main.js"></script>
     <script src="assets/js/language.js"></script>
     <script src="assets/js/skills.js"></script>
+    <script src="assets/js/texto.js"></script>
   </body>
 </html>

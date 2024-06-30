@@ -569,12 +569,7 @@ select {
     font-size: 13pt;
   }
 }
-@media screen and (min-width: 736px) {
-  .logoHeader {
-    width: 400%;
-    margin: -15px 0 0 0px;
-  }
-}
+
 @media screen and (max-width: 736px) {
   body,
   input,
@@ -1590,8 +1585,8 @@ body.is-touch .main {
 
 @media screen and (max-width: 736px) {
   #imag {
-    width: 6%;
-    margin-top: 1%;
+    width: 100px;
+    margin-top: -16px;
   }
 
   .main > .content br {
@@ -1746,10 +1741,18 @@ body.is-touch .main {
   background-repeat: repeat, no-repeat;
 }
 
+#tituloIntro {
+  color: rgb(46, 46, 46);
+  border-style: solid;
+  border-color: #ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+}
+
 /* --- ABOUT ME --- */
 
 #aboutme {
-  background: url(""), url("../../images/one.png");
+  background: url(""), url("../../images/one.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top right, center center;
@@ -2162,4 +2165,98 @@ footer .Up {
 
 #dev :hover {
   background-image: url(/images/dev2.ico);
+}
+
+/* ACA PRUEBA */
+
+#darkmode {
+  display: inline-block;
+  background: url(/images/dark-mode.png);
+  width: 25px;
+  height: 21px;
+  font-size: 0;
+  text-decoration: none;
+  margin-left: 10px;
+}
+body.dark {
+  background-color: #ffffff;
+}
+
+body.dark header h1 {
+  filter: invert(1);
+}
+
+body.dark #darkmode {
+  background-position: right center;
+}
+
+body.dark #aboutme p {
+  color: rgb(46, 46, 46);
+}
+body.dark #aboutme h2 {
+  color: rgb(46, 46, 46);
+}
+body.dark #aboutme .content.box.style2 {
+  background-color: #ffffff;
+}
+body.dark #tituloIntro {
+  color: #ffffff;
+}
+
+body.dark #tituloSkills {
+  color: rgb(46, 46, 46);
+}
+body.dark #subSkills {
+  color: rgb(46, 46, 46);
+}
+
+body.dark .skill {
+  color: rgb(46, 46, 46);
+}
+
+body.dark .skills {
+  background-color: #ffffff;
+}
+
+body.dark .myProjects {
+  background-color: #c7c7c7;
+}
+body.dark .contenido-seccion {
+  color: rgb(46, 46, 46);
+}
+body.dark #contact {
+  background-color: #ffffff;
+}
+body.dark #letrasContact {
+  color: rgb(46, 46, 46);
+}
+body.dark .box {
+  background-color: #c7c7c7;
+  color: rgb(46, 46, 46);
+}
+body.dark #formColor {
+  background-color: #c7c7c7;
+}
+body.dark .fields {
+  background-color: #c7c7c7;
+  color: rgb(46, 46, 46);
+}
+body.dark .field.half {
+  background-color: #c7c7c7;
+  color: rgb(46, 46, 46);
+}
+body.dark .actions.special {
+  background-color: #c7c7c7;
+  color: rgb(46, 46, 46);
+}
+
+body.dark #email::placeholder {
+  color: rgb(46, 46, 46);
+}
+
+body.dark #aboutme {
+  background: url(""), url("../../images/one2.jpg");
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top right, center center;
 }

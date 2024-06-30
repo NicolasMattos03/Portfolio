@@ -1,0 +1,8 @@
+.typewriter-text {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #333;
+  overflow: hidden; /* Para ocultar el texto que aún no se ha animado */
+  border-right: 0.15em solid #333; /* Efecto cursor */
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
