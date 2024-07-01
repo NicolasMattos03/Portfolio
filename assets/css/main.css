@@ -1791,9 +1791,13 @@ body.is-touch .main {
   #contact .box {
     padding: 1.5em 1.5em 2em 1.5em;
   }
-
+  #bosta {
+        font-size: 30px;
+        /* margin-right: -20px; */
+        margin-left: -50px;
+    }
   #cacacaca {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
