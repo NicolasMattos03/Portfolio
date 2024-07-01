@@ -82,7 +82,13 @@
     <section id="intro" class="main style1 dark fullscreen">
       <div class="content">
         <header>
-          <h2 id="tituloIntro" data-section="intro" data-value="titulo">Hi, I'm Nico Mattos</h2>
+             <div class="contenedor" id="tituloIntro">
+      <div class="contenedor__texto">
+        <h2 data-section="intro" data-value="titulo">Hi, I'm</h2>
+        <h2><div class="contenedor__texto__animacion" id="cacacaca"></div></h2>
+        <div class="barra__escritura"></div>
+      </div>
+    </div>
           <p class="inicio" data-section="intro" data-value="texto">
             And I'm..
           </p>
@@ -91,21 +97,24 @@
         <p class="textoParpadeante">
           <span class="blink_me" id="rotate">
             <span
-              style="color: rgb(255, 255, 255)"
+            id="stylePalabras"
+              style="color: rgb(46, 46, 46)"
               data-section="parpadeo"
               data-value="texto1"
               ><b>WEB DEVELOPER</b></span
             >
             <span></span>
             <span
-              style="color: rgb(255, 255, 255)"
+               id="stylePalabras"
+              style="color: rgb(46, 46, 46)"
               data-section="parpadeo"
               data-value="texto2"
               ><b>MOBILE'APPS DEVELOPER</b></span
             >
             <span></span>
             <span
-              style="color: rgb(255, 255, 255)"
+               id="stylePalabras"
+              style="color: rgb(46, 46, 46)"
               data-section="parpadeo"
               data-value="texto3"
               ><b>FRONTEND DEVELOPER</b></span
@@ -526,5 +535,6 @@ title="GitHub"
     <script src="assets/js/language.js"></script>
     <script src="assets/js/skills.js"></script>
     <script src="assets/js/texto.js"></script>
+    <script src="assets/js/escritura.js"></script>
   </body>
 </html>

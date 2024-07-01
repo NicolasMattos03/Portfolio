@@ -609,7 +609,7 @@ h2 {
 
 @media screen and (max-width: 736px) {
   h2 {
-    font-size: 1.5em;
+    font-size: 0.5em;
   }
 }
 strong,
@@ -1423,6 +1423,7 @@ body {
 .main.style1 h2 {
   font-size: 4.25em;
   line-height: 1em;
+  margin-right: 20px;
 }
 
 .main.style1 > .content {
@@ -1790,6 +1791,10 @@ body.is-touch .main {
   #contact .box {
     padding: 1.5em 1.5em 2em 1.5em;
   }
+
+  #cacacaca {
+    font-size: 40px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1824,7 +1829,11 @@ body.is-touch .main {
 }
 
 /* --- TEXTOS PARPADEANTES --- */
-
+#stylePalabras {
+  color: rgb(46, 46, 46);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
 .blink_me {
   display: inline-block;
   vertical-align: bottom;
@@ -2251,7 +2260,7 @@ body.dark .actions.special {
 }
 
 body.dark #email::placeholder {
-  color: rgb(46, 46, 46);
+  color: rgb(0, 0, 0);
 }
 
 body.dark #aboutme {
@@ -2259,4 +2268,47 @@ body.dark #aboutme {
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top right, center center;
+}
+
+body.dark #stylePalabras b {
+  color: rgb(255, 255, 255);
+}
+
+/* Animacion */
+.contenedor {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.contenedor__texto {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  z-index: 1;
+  font-family: "Source Sans Pro", "sans-serif";
+}
+
+.barra__escritura {
+  width: 2px;
+  height: 70px;
+  margin-left: 5px;
+  background-color: #181818;
+  transform: rotateZ(10deg);
+  animation: barra-animacion 1s ease infinite;
+}
+
+.contenedor__texto__animacion {
+  display: flex;
+  font-size: 80px;
+}
+
+/* Barra de escritura animation ---------------------------------------------*/
+
+@keyframes barra-animacion {
+  50% {
+    height: 20px;
+  }
 }
