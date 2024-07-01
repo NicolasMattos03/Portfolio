@@ -1791,12 +1791,13 @@ body.is-touch .main {
   #contact .box {
     padding: 1.5em 1.5em 2em 1.5em;
   }
-  #bosta {
-        font-size: 30px;
-        /* margin-right: -20px; */
-        margin-left: -50px;
-    }
-  #cacacaca {
+  #Saludo {
+    font-size: 30px;
+    /* margin-right: -20px; */
+    margin-left: -50px;
+  }
+
+  #Saludo2 {
     font-size: 30px;
   }
 }
@@ -2293,15 +2294,6 @@ body.dark #stylePalabras b {
   width: 700px;
   z-index: 1;
   font-family: "Source Sans Pro", "sans-serif";
-}
-
-.barra__escritura {
-  width: 2px;
-  height: 70px;
-  margin-left: 5px;
-  background-color: #181818;
-  transform: rotateZ(10deg);
-  animation: barra-animacion 1s ease infinite;
 }
 
 .contenedor__texto__animacion {
